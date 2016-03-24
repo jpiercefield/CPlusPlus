@@ -1,0 +1,15 @@
+GetLength
+PutItem 5
+PutItem 7
+PutItem 6
+PutItem 9
+PutItem 9
+PrintList
+DeleteItem 5
+PrintList
+DeleteItem 2
+PrintList
+DeleteItem 9
+PrintList
+Quit
+

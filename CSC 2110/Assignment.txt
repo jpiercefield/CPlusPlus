@@ -1,0 +1,18 @@
+James Piercefield
+
+- In my opinion we wouldn't need to sort the whole
+list, in order. We just have to make sure we get 
+the first 10 places correct.
+
+Algorithm:
+
+- Gather all of the information
+- Search for the highest number then place this in the 0 index.
+- Increment the index by 1 then search for the next highest number.
+- Repeat this 10 times until the first 10 places in the array
+contain the 10 winning pigs ordered by weight.
+
+--With this you're making 490 less passes. Before it'd sort
+all of them wasting a whole lot of time doing something that's
+not needed.
+
